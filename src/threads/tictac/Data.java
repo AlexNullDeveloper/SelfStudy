@@ -1,0 +1,23 @@
+package threads.tictac;
+
+/**
+ * Created by a.talismanov on 05.07.2016.
+ */
+public class Data {
+    private int state = 1;
+
+    public int getState() {
+        return state;
+    }
+
+    public void Tic() {
+        System.out.print("Tic-");
+        state = 2;
+    }
+
+    public void Tak() {
+        System.out.println("Tak");
+        state = 1;
+    }
+
+}
